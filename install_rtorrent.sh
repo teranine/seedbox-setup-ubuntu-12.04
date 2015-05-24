@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER="rtorrent"
+USER="teranine"
 USERHOME="/home/$USER"
 
 sudo apt-get update
