@@ -47,4 +47,5 @@ mkdir -p $USERHOME/{.session,watch,downloads}
 
 cp ./rtorrent.rc $USERHOME/.rtorrent.rc
 
-chmod 777 $USERHOME/{.session,watch,downloads,.rtorrent.rc}
+sudo chown -R $USER:$USER $USERHOME
+# chmod 777 $USERHOME/{.session,watch,downloads,.rtorrent.rc}
