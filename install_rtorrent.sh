@@ -5,6 +5,8 @@ USERHOME="/home/$USER"
 
 sudo apt-get update
 
+# TODO: Consolidate these packages into the ones only needed to build rtorrent
+
 sudo apt-get install -y git-core subversion build-essential automake libtool libcppunit-dev libcurl4-openssl-dev libsigc++-2.0-dev libncurses5-dev zip rar unrar apache2 apache2-utils php5 php5-curl php5-geoip python-cheetah mediainfo libav-tools
 
 # Build and install xmlrpc from svn
